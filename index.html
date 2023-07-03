@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Search Bar</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="box">
         <input type="text" id="searchBar" placeholder="Search">
-        <button onclick="searchButton()">Search</button>
-        <span id="details">
-            <img src="Kung fu panda.jpeg" alt="Image not found" height="200px" width="200px">
+        <button onclick="searchButton()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <h1 id="title">Title: <b> </b></h1>
+        <h2 id="director">Director: <b> </b></h2>
+        <span id="image">
+            <img src="#" alt="Image not found" height="250px" width="200px">
         </span>
     </div>
     

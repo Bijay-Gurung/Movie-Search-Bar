@@ -1,25 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     background-color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 .box{
     background-color: #fff;
-    height: 400px;
+    height: 500px;
     width: 400px;
     border-radius: 30px;
     position: relative;
     top: 100px;
     left: 34%;
     box-shadow: 8px 8px 10px 7px #9c9c9c;
+    background-image: url(anime.jpg);
+    background-position: center;
+    background-size: cover;
 }
 #searchBar{
     position: relative;
     top: 37px;
     left: 22%;
-    color: #fff;
     border-radius: 7px;
+    box-shadow: 0px 4px 10px 3px #b3b3b3;
 }
 button{
     position: relative;
@@ -27,9 +32,28 @@ button{
     left: 27%;
     width: 60px;
     border-radius: 7px;
+    box-shadow: 0px 4px 10px 3px #b3b3b3;
 }
 span{
     position: relative;
-    top: 90px;
+    top: 120px;
     left: 25%;
+}
+.box{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1)), (rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 90px;
 }
